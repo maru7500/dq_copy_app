@@ -2,8 +2,6 @@ class GamesController < ApplicationController
 
 
   def index
-    # @game = current_user.game
-    # ここで@game作っておかないと、form_withで使うものがなくなりエラー出る
     @brave = current_user.brave
     # @monster = Monster.where("recommended_level <= ?",@brave.level).sample
     @monster = Monster.all.sample
@@ -12,14 +10,7 @@ class GamesController < ApplicationController
     session[:monster]=@monster.session_attributes
   end
 
-  # def update
-  #   @game = current_user.game
-  #   @game.update!(game_params)
-  # end
-
   def start
-    # @game = current_user.game
-    # これ入れるとデータベース更新されない
     @brave = current_user.brave
     @monster = Monster.find_by(name: session[:monster]["name"])
     session[:brave]= @brave.session_attributes

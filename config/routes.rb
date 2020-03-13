@@ -7,7 +7,6 @@ Rails.application.routes.draw do
   get "/skill", to: "games#skill"
   get "/spell", to: "games#spell"
 
-  # resources :games, only: :update
   resources :braves, only: :update
 
 
