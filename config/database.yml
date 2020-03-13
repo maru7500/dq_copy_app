@@ -10,8 +10,8 @@
 #   https://dev.mysql.com/doc/refman/5.7/en/password-hashing.html
 #
 default: &default
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql2
+  encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
   password:
@@ -48,7 +48,6 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: db_production
-  username: dq_copy_app
-  password: <%= ENV['DQ_COPY_APP_DATABASE_PASSWORD'] %>
+  adapter: postgrespl
+  database: dq_copy_app_production
+  

@@ -23,8 +23,8 @@
 
 // js.erb 内でも使用したい変数は， let や constではなく， window.〜 や global.〜 という変数名にする必要があり。
 document.addEventListener("turbolinks:load",()=>{
-    const battleButton = document.getElementById("battle-button")
-    const exitButton = document.getElementById("exit-button")
+    window.battleButton = document.getElementById("battle-button")
+    window.exitButton = document.getElementById("exit-button")
     window.skillButton = document.getElementById("skill-button")
     window.spellButton = document.getElementById("spell-button")
     window.battleBody = document.getElementById("battle-body")
@@ -43,25 +43,6 @@ document.addEventListener("turbolinks:load",()=>{
     window.setBtn = document.getElementById("set-btn")
     window.actionBtn = document.getElementById("action-btn")
 
-    var display = function(){
-        battleButtonContainer.style.display = "none"
-        exitButtonContainer.style.display = "none"
-        skillButtonContainer.style.display = "none"
-        spellButtonContainer.style.display = "none"
-        battleMessages.innerText = ""
-    }
-
-    battleButton.addEventListener("click",() =>{
-        display()
-    })
-    exitButton.addEventListener("click",() =>{
-        display()
-    })
-    skillButton.addEventListener("click",() =>{
-        display()
-    })
-    spellButton.addEventListener("click",() =>{
-        display()
-    })
+    
     
 })
