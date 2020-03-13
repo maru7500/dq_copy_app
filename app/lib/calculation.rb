@@ -29,7 +29,7 @@ module Calculation
     offense = attacker.offense
     defense = defender.defense
 
-    if defender.name == "トップライフコーチ"
+    if defender.name == "シュウ"
       damage = 777
     else
       random_rate = rand(Skill_Damage_Percentage_Range) / 100.0

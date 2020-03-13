@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_12_095952) do
+ActiveRecord::Schema.define(version: 2020_03_13_105348) do
 
   create_table "braves", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "user_id"
@@ -34,14 +34,6 @@ ActiveRecord::Schema.define(version: 2020_03_12_095952) do
     t.datetime "updated_at", null: false
     t.index ["exp"], name: "index_exp_tables_on_exp"
     t.index ["false"], name: "index_exp_tables_on_false"
-  end
-
-  create_table "games", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.bigint "user_id"
-    t.string "spell"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_games_on_user_id"
   end
 
   create_table "monsters", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -71,5 +63,4 @@ ActiveRecord::Schema.define(version: 2020_03_12_095952) do
   end
 
   add_foreign_key "braves", "users"
-  add_foreign_key "games", "users"
 end
