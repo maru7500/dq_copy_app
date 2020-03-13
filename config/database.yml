@@ -49,5 +49,5 @@ test:
 #
 production:
   adapter: postgrespl
-  database: dq_copy_app_production
+  database: db_production
   
