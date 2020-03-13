@@ -49,9 +49,6 @@ class GamesController < ApplicationController
 
 
   private
-    def game_params
-      params.require(:game).permit(:spell)
-    end
 
     def battle_process
       if @monster.hp <= 0
