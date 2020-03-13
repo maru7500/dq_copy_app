@@ -48,6 +48,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
+  <<: *default
   adapter: postgresql
-  database: dq_copy_app_production
-  
+  encoding: unicode
+  pool: 5
