@@ -3,8 +3,8 @@ class GamesController < ApplicationController
 
   def index
     @brave = current_user.brave
-    # @monster = Monster.where("recommended_level <= ?",@brave.level).sample
-    @monster = Monster.all.sample
+    @monster = Monster.where("recommended_level <= ?",@brave.level).sample
+    # @monster = Monster.all.sample
     # recommended_levelがbrave.levelより低いものをランダムで
     session[:brave]= @brave.session_attributes
     session[:monster] = @monster.session_attributes
@@ -21,8 +21,8 @@ class GamesController < ApplicationController
   def exit
     @exit_message = Message.exit
     @brave = current_user.brave
-    # @monster = Monster.where("recommended_level <= ?",@brave.level).sample
-    @monster = Monster.all.sample
+    @monster = Monster.where("recommended_level <= ?",@brave.level).sample
+    # @monster = Monster.all.sample
     finish_battle
   end
 
@@ -165,8 +165,8 @@ class GamesController < ApplicationController
 
     def finish_battle
       @brave.save
-      # @monster = Monster.where("recommended_level <= ?",@brave.level).sample
-      @monster = Monster.all.sample
+      @monster = Monster.where("recommended_level <= ?",@brave.level).sample
+      # @monster = Monster.all.sample
       session[:monster] = @monster.session_attributes
     end
 
