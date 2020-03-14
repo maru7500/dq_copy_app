@@ -8,7 +8,6 @@ class GamesController < ApplicationController
     # recommended_levelがbrave.levelより低いものをランダムで
     session[:brave]= @brave.session_attributes
     session[:monster] = @monster.session_attributes
-    binding.pry
   end
 
   def start
