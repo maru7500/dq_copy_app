@@ -7,7 +7,8 @@ class GamesController < ApplicationController
     @monster = Monster.all.sample
     # recommended_levelがbrave.levelより低いものをランダムで
     session[:brave]= @brave.session_attributes
-    session[:monster]=@monster.session_attributes
+    session[:monster] = @monster.session_attributes
+    binding.pry
   end
 
   def start
@@ -99,11 +100,11 @@ class GamesController < ApplicationController
     def spell_battle_start
       @brave = Brave.new(session[:brave])
       @monster = Monster.new(session[:monster])
-      if @word == "バルス"
+      if @word == "第一の爆弾"
         @brave.spell_1_attack(@monster)
-      elsif @word == "エクスプロージョン"
+      elsif @word == "シアーハートアタック"
         @brave.spell_2_attack(@monster)
-      elsif @word == "ピーリカピリララポポリナペーペルト"
+      elsif @word == "ヴァイツァ・ダスト"
         @brave.spell_3_attack(@monster)
       else
         @brave.spell_attack(@monster)
