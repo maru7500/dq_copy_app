@@ -2,7 +2,10 @@
   <div class="battle-bg" id="monster-bg-image">
     <%= render "games/monster/bg" %>
   </div>
+  <div class="monster-name-content">
   <p class = "monster_name" id="battle-monster-name"><%= @monster.name %></p>
+  <p class = "monster_hp" id="battle-monster-hp" >HP:<%= session[:monster]["hp"] %></p>
+  </div>
   <div class = "monster-image battle-monster-image" id="battle-monster-image">
     <%= render "games/monster/image" %>
   </div>

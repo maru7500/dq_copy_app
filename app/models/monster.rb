@@ -14,8 +14,8 @@ class Monster < ApplicationRecord
 
   attr_accessor :hp, :damage 
 
-  def session_attributes
-    attributes.slice("name","offense","defense","exp").merge("hp" => self.max_hp)
+  def session_attributes(hp: self.max_hp)
+    attributes.slice("name","offense","defense","exp").merge("hp" => hp)
   end
 
   def attack(brave)

@@ -15,6 +15,7 @@ class GamesController < ApplicationController
     @monster = Monster.find_by(name: session[:monster]["name"])
     session[:brave]= @brave.session_attributes
     session[:monster]= @monster.session_attributes
+   
   end
 
 

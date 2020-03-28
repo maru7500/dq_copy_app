@@ -19,6 +19,7 @@ var timeout = 500
 var flashTimer
 var monsterRcvDmg = function(){
     if (output === monsterDmgLgt - 1){
+        document.getElementById("battle-monster-hp").innerText = "HP:<%= session[:monster]["hp"] %>"
         flashTimer = setInterval(function(){
             battleMonsterImage.style.opacity ^= "1" 
         },50)
