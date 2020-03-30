@@ -83,16 +83,16 @@ ruby / Rails / JavaScript / mysql
 # 画像&動画
 
 - 新規登録画面  
-<img width="500" alt="新規登録" src="https://user-images.githubusercontent.com/61145164/77872302-9424aa80-7281-11ea-9fe5-5131943411f6.png">
-
-- 編集＆ログアウト画面
-<img width="500" alt="編集" src="https://user-images.githubusercontent.com/61145164/77873217-4f4e4300-7284-11ea-8b2f-eba360df6491.png">
+<img width="500" height= "250" alt="新規登録" src="https://user-images.githubusercontent.com/61145164/77872302-9424aa80-7281-11ea-9fe5-5131943411f6.png">
 
 - TOP画面
-<img width="500" alt="top画面" src="https://user-images.githubusercontent.com/61145164/77872525-22009580-7282-11ea-9767-60b9e85657d0.png">
+<img width="500" height= "250" alt="top画面" src="https://user-images.githubusercontent.com/61145164/77872525-22009580-7282-11ea-9767-60b9e85657d0.png">
+
+- 編集＆ログアウト画面
+<img width="250" height= "400" alt="編集" src="https://user-images.githubusercontent.com/61145164/77873217-4f4e4300-7284-11ea-8b2f-eba360df6491.png">
 
 - 戦闘モーダル
-<img width="500" alt="戦闘モーダル" src="https://user-images.githubusercontent.com/61145164/77872557-3e043700-7282-11ea-8a4d-bab7c0f58ff9.png">
+<img width="250" height= "400" alt="戦闘モーダル" src="https://user-images.githubusercontent.com/61145164/77872557-3e043700-7282-11ea-8a4d-bab7c0f58ff9.png">
 
 
 - Attack & Escape コマンド(10秒程度)  
