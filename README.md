@@ -1,37 +1,37 @@
 # README
 
-# APP名
+## APP名
 TECH QUEST
 
-# 概要
+## 概要
 ゲーム戦闘シーンの再現。
 
 勇者（ユーザー）がランダムに出てくるモンスターと戦闘。  
 お互いにダメージを与え合い、どちらかのHPが0になると戦闘終了。  
 新たなモンスターが出現し、戦闘を繰り返します。  
 
-# リンク
+## リンク
 <https://arcane-temple-26627.herokuapp.com/>
 
-# 開発の背景
+## 開発の背景
 せっかく作るなら何か面白いものをと思い。
 
 
-# 開発言語
+## 開発言語
 ruby / Rails / JavaScript / mysql 
 
-# ER図
+## ER図
 
-## usersテーブル
+### usersテーブル
 |Column|Type|Options|
 |------|----|-------|
 |email|string|null: false|
 |encrypted_password|string|null: false|
 
-### Association
+#### Association
 - has_one :brave, dependent: :destroy 
 
-## bravesテーブル
+### bravesテーブル
 |Column|Type|Options|
 |------|----|-------|
 |user_id|bigint|null: false, foreign_key: true|
@@ -42,10 +42,10 @@ ruby / Rails / JavaScript / mysql
 |offense|integer|null: false|
 |defense|integer|null: false|
 
-### Association
+#### Association
 - belongs_to :user
 
-## monstersテーブル
+### monstersテーブル
 |Column|Type|Options|
 |------|----|-------|
 |name|name|null: false|
@@ -57,14 +57,14 @@ ruby / Rails / JavaScript / mysql
 |defense|integer|null: false|
 |exp|integer|null: false|
 
-## exp_tablesテーブル
+### exp_tablesテーブル
 |Column|Type|Options|
 |------|----|-------|
 |level|integer|null: false|
 |exp|bigint|null: false|
 
 
-# 実装機能
+## 実装機能
 - ユーザーログイン、ログアウト、編集。
 - CSVデータのインポート（モンスターデータ）。
 - JavaScriptによる戦闘の非同期通信。
@@ -80,7 +80,7 @@ ruby / Rails / JavaScript / mysql
              何も入力しなければダメージは0になる。
   - escape : 逃げる。戦闘を終了し新たなモンスターの出現。
 
-# 画像&動画
+## 画像&動画
 
 - 新規登録画面  
 <img width="500" height= "250" alt="新規登録" src="https://user-images.githubusercontent.com/61145164/77872302-9424aa80-7281-11ea-9fe5-5131943411f6.png">
