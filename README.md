@@ -85,11 +85,13 @@ ruby / Rails / JavaScript / mysql
 
 
 Attack & Escape コマンド
-<https://im3.ezgif.com/tmp/ezgif-3-8df60aa63baf.mov>
+<https://im3.ezgif.com/tmp/ezgif-3-3fa42a422260.gif>
 
 skill コマンド
+<https://im3.ezgif.com/tmp/ezgif-3-bd2ec38c5b3a.gif>
 
 spellコマンド (一時的に入力時間5秒にしています)
+<https://im3.ezgif.com/tmp/ezgif-3-cf83be1c87ff.gif>
 
 
 
