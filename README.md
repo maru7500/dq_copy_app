@@ -85,7 +85,7 @@ ruby / Rails / JavaScript / mysql
 
 
 Attack & Escape コマンド
-<https://im3.ezgif.com/tmp/ezgif-3-db5588003fe4.gif>
+<https://im3.ezgif.com/tmp/ezgif-3-8df60aa63baf.mov>
 
 skill コマンド
 
