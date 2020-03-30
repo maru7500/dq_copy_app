@@ -83,7 +83,8 @@ ruby / Rails / JavaScript / mysql
 # 画像&動画
 
 新規登録画面  
-<img alt=”新規登録” src=”https://gyazo.com/77275f606382f91d75c720642c06aa46” />
+<img width="500" alt="新規登録" src="https://user-images.githubusercontent.com/61145164/77872302-9424aa80-7281-11ea-9fe5-5131943411f6.png">
+
 
 Attack & Escape コマンド(10秒程度)  
 <https://im3.ezgif.com/tmp/ezgif-3-3fa42a422260.gif>
