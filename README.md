@@ -82,8 +82,15 @@ ruby / Rails / JavaScript / mysql
 
 # 画像&動画
 
-Attack & Escape コマンド（10秒程度）
-![attack](https://user-images.githubusercontent.com/61145164/77813975-2e54e900-70f0-11ea-92dc-d7453ae35046.gif)
+
+
+Attack & Escape コマンド
+<https://gyazo.com/173f1fa922aa9f9f9747329303a42675>
+
+skill コマンド
+
+spellコマンド (一時的に入力時間5秒にしています)
+
 
 
 
