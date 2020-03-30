@@ -82,15 +82,16 @@ ruby / Rails / JavaScript / mysql
 
 # 画像&動画
 
+新規登録画面  
+<img alt=”新規登録” src=”https://gyazo.com/77275f606382f91d75c720642c06aa46” />
 
-
-Attack & Escape コマンド
+Attack & Escape コマンド(10秒程度)  
 <https://im3.ezgif.com/tmp/ezgif-3-3fa42a422260.gif>
 
-skill コマンド
+skill コマンド(10秒程度)  
 <https://im3.ezgif.com/tmp/ezgif-3-bd2ec38c5b3a.gif>
 
-spellコマンド (一時的に入力時間5秒にしています)
+spellコマンド(10秒程度)  
 <https://im3.ezgif.com/tmp/ezgif-3-cf83be1c87ff.gif>
 
 
