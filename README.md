@@ -86,26 +86,26 @@ html / css / ruby / Rails / JavaScript / jQuery / mysql
 ## 画像&動画
 
 - 新規登録画面  
-<img width="500" height= "250" alt="新規登録" src="https://user-images.githubusercontent.com/61145164/77872302-9424aa80-7281-11ea-9fe5-5131943411f6.png">
+<img width="500" height= "280" alt="新規登録" src="https://user-images.githubusercontent.com/61145164/77872302-9424aa80-7281-11ea-9fe5-5131943411f6.png">
 
 - TOP画面
-<img width="500" height= "250" alt="top画面" src="https://user-images.githubusercontent.com/61145164/77872525-22009580-7282-11ea-9767-60b9e85657d0.png">
+<img width="500" height= "280" alt="top画面" src="https://user-images.githubusercontent.com/61145164/77872525-22009580-7282-11ea-9767-60b9e85657d0.png">
 
 - 編集＆ログアウト画面
-<img width="250" height= "400" alt="編集" src="https://user-images.githubusercontent.com/61145164/77873217-4f4e4300-7284-11ea-8b2f-eba360df6491.png">
+<img width="280" height= "400" alt="編集" src="https://user-images.githubusercontent.com/61145164/77873217-4f4e4300-7284-11ea-8b2f-eba360df6491.png">
 
 - 戦闘モーダル
-<img width="250" height= "400" alt="戦闘モーダル" src="https://user-images.githubusercontent.com/61145164/77872557-3e043700-7282-11ea-8a4d-bab7c0f58ff9.png">
+<img width="280" height= "400" alt="戦闘モーダル" src="https://user-images.githubusercontent.com/61145164/77872557-3e043700-7282-11ea-8a4d-bab7c0f58ff9.png">
 
 
-- Attack & Escape コマンド(10秒程度)  
-<img width="250" height= "400" alt="編集" src="https://user-images.githubusercontent.com/61145164/78005367-6e2d0200-7376-11ea-906d-2e74b218c219.gif">
+- Attack & Escape コマンド  
+<img width="280" height= "400" alt="編集" src="https://user-images.githubusercontent.com/61145164/78005367-6e2d0200-7376-11ea-906d-2e74b218c219.gif">
 
-- skill コマンド(10秒程度) 
-<img width="250" height= "400" alt="編集" src="https://user-images.githubusercontent.com/61145164/78005315-5a819b80-7376-11ea-9a4b-ab74233fd1ed.gif">
+- skill コマンド  
+<img width="280" height= "400" alt="編集" src="https://user-images.githubusercontent.com/61145164/78005315-5a819b80-7376-11ea-9a4b-ab74233fd1ed.gif">
 
-- spellコマンド(10秒程度)  
-<img width="250" height= "400" alt="編集" src="https://user-images.githubusercontent.com/61145164/78003870-4a68bc80-7374-11ea-9602-bd2d56b040e4.gif">
+- spellコマンド  
+<img width="280" height= "400" alt="編集" src="https://user-images.githubusercontent.com/61145164/78003870-4a68bc80-7374-11ea-9602-bd2d56b040e4.gif">
 
 
 
