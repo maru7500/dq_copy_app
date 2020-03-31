@@ -99,13 +99,14 @@ html / css / ruby / Rails / JavaScript / jQuery / mysql
 
 
 - Attack & Escape コマンド(10秒程度)  
-<![spell](https://user-images.githubusercontent.com/61145164/78003870-4a68bc80-7374-11ea-9602-bd2d56b040e4.gif)>
+<width="250" height= "400" ![sttack](https://user-images.githubusercontent.com/61145164/78005367-6e2d0200-7376-11ea-906d-2e74b218c219.gif)
+ >
 
 - skill コマンド(10秒程度)  
-<https://im3.ezgif.com/tmp/ezgif-3-bd2ec38c5b3a.gif>
+<![skill](https://user-images.githubusercontent.com/61145164/78005315-5a819b80-7376-11ea-9a4b-ab74233fd1ed.gif)>
 
 - spellコマンド(10秒程度)  
-<https://im3.ezgif.com/tmp/ezgif-3-cf83be1c87ff.gif>
+<![spell](https://user-images.githubusercontent.com/61145164/78003870-4a68bc80-7374-11ea-9602-bd2d56b040e4.gif)>
 
 
 
