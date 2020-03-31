@@ -8,18 +8,20 @@ TECH QUEST
 
 勇者（ユーザー）がランダムに出てくるモンスターと戦闘。  
 お互いにダメージを与え合い、どちらかのHPが0になると戦闘終了。  
-新たなモンスターが出現＆戦闘。
-をひたすら繰り返す。  
+新たなモンスターが出現＆戦闘をひたすら繰り返します。  
 
 ## リンク
 <https://arcane-temple-26627.herokuapp.com/>
 
 ## 開発の背景
-せっかく作るなら何か面白いものをと思い。
+せっかく作るのであれば何か面白いものが作りたい。
+また他の人にも見てもらうのであれば実際に使って、少しでも楽しんで貰いたい。
+そう考えたときに誰もが知っていて、遊んだことのあるゲームがいいのではと思いました。
+私自身、昔から遊んできたゲームというものが、どのような仕組みで動いているのかという点でもとても興味があったので制作物として作ることを決めました。
 
 
 ## 開発言語
-ruby / Rails / JavaScript / mysql 
+html / css / ruby / Rails / JavaScript / jQuery / mysql 
 
 ## ER図
 
@@ -97,7 +99,7 @@ ruby / Rails / JavaScript / mysql
 
 
 - Attack & Escape コマンド(10秒程度)  
-<https://im3.ezgif.com/tmp/ezgif-3-3fa42a422260.gif>
+<![spell](https://user-images.githubusercontent.com/61145164/78003870-4a68bc80-7374-11ea-9602-bd2d56b040e4.gif)>
 
 - skill コマンド(10秒程度)  
 <https://im3.ezgif.com/tmp/ezgif-3-bd2ec38c5b3a.gif>
