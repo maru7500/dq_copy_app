@@ -99,8 +99,7 @@ html / css / ruby / Rails / JavaScript / jQuery / mysql
 
 
 - Attack & Escape コマンド(10秒程度)  
-<width="250" height= "400" ![sttack](https://user-images.githubusercontent.com/61145164/78005367-6e2d0200-7376-11ea-906d-2e74b218c219.gif)
- >
+<![sttack](https://user-images.githubusercontent.com/61145164/78005367-6e2d0200-7376-11ea-906d-2e74b218c219.gif)>
 
 - skill コマンド(10秒程度)  
 <![skill](https://user-images.githubusercontent.com/61145164/78005315-5a819b80-7376-11ea-9a4b-ab74233fd1ed.gif)>
