@@ -53,8 +53,6 @@ var continueBattle = function(){
     }
 }
 
-
-
 <% if @victory_messages.present? || @lose_messages.present? %>
 var vanishMonster = function(){
     if (output === monsterDmgLgt + braveDmgLgt){
@@ -77,14 +75,11 @@ var comeMonster = function(){
 <%# そしてリロード %>
 <% end %>
 
-
 var writeMessage = function(){
     if (output < allLgt){
         battleMessages.insertAdjacentHTML("beforeend","<p>" + allMessages[output] + "</p>")
     }
 }
-
-
 
 <%# elementつまりbattleMessagesの直前（beforeendにより）に第二引数を入れ込む。 %>
 <%# allMessagesの中の配列のoutput番目のものを出力。 %>

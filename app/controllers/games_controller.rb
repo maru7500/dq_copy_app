@@ -122,9 +122,7 @@ class GamesController < ApplicationController
       
       battle_info
     end
-
-
-
+    
 
       def battle_info
         # ヒアドキュメント：複数行の出力ができる。今回の場合outputまで
